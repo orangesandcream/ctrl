@@ -3,6 +3,7 @@
 ---
 > import tensorflow as tf
 228c228
+< import tensorflow as tf
 < def _create_keras_model_fn(keras_model, custom_objects=None):
 ---
 > def _create_keras_model_fn(keras_model, params=None, custom_objects=None):
